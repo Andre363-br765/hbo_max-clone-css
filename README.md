@@ -136,4 +136,4 @@ hbo-max-clone/
 
 ## 📸 Prévia do Design
 
-<img src="./docs/readme-images/design.png" alt="Prévia do design do projeto HBO Max Clone" width="600" />
+<img src="./docs/readme-images/design.png" alt="Prévia do design do projeto HBO Max Clone" width="1300" />
