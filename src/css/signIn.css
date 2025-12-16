@@ -1,0 +1,16 @@
+/* ==========================
+   Login - arquivo principal
+   ========================== */
+
+/* Global */
+@import url("./global/base.css");
+@import url("./global/components.css");
+
+/* ==========================
+   Style - login
+   ========================== */
+@import url("./layout/login.css");
+
+/* Responsividade */
+@import url("./responsive/global.css");
+@import url("./responsive/login.css");

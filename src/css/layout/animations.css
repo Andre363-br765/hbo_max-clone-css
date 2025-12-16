@@ -1,0 +1,75 @@
+/* ==========================
+   Hover Images dos conteúdos
+   ========================== */
+
+/* HBO Content */
+.contents__card:nth-child(1):hover {
+  background-image: url("../../assets/images/hover/hbo_0.webp");
+}
+
+/* Max Originals Content */
+.contents__card:nth-child(2):hover {
+  background-image: url("../../assets/images/hover/MAX.webp");
+}
+
+/* DC Content */
+.contents__card:nth-child(3):hover {
+  background-image: url("../../assets/images/hover/DC.webp");
+}
+
+/* WB Content */
+.contents__card:nth-child(4):hover {
+  background-image: url("../../assets/images/hover/WB.webp");
+}
+
+/* CN Content */
+.contents__card:nth-child(5):hover {
+  background-image: url("../../assets/images/hover/CN.png");
+}
+
+/* Champions League Content */
+.contents__card:nth-child(6):hover {
+  background-image: url("../../assets/images/hover/UCL.webp");
+}
+
+/* ==========================
+   Animações da página
+   ========================== */
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@keyframes wiggle {
+  0%,
+  10% {
+    transform: rotate(0);
+  }
+  15% {
+    transform: rotate(-15deg);
+  }
+  20% {
+    transform: rotate(10deg);
+  }
+  25% {
+    transform: rotate(-10deg);
+  }
+  30% {
+    transform: rotate(10deg);
+  }
+  35% {
+    transform: rotate(-10deg);
+  }
+  40%,
+  100% {
+    transform: rotate(0);
+  }
+}

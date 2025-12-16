@@ -1,0 +1,17 @@
+/* ==========================
+   Home - arquivo principal
+   ========================== */
+
+/* Global */
+@import url("./global/base.css");
+@import url("./global/components.css");
+
+/* ==========================
+   Style Principal
+   ========================== */
+@import url("./layout/home.css");
+@import url("./layout/animations.css");
+
+/* Responsividade */
+@import url("./responsive/global.css");
+@import url("./responsive/home.css");
